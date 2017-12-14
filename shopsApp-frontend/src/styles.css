@@ -1,0 +1,8 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import './vendor/bootstrap/css/bootstrap.css';
+@import './css/4-col-portfolio.css';
+
+.shop-title{margin:.90rem}
+.options a{cursor: pointer;justify-content:center;}
+.cards-container{margin-top:5rem}

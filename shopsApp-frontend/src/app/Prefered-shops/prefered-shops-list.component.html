@@ -1,0 +1,28 @@
+
+<div class="container">
+
+  <div class="row cards-container">
+    <div *ngFor="let shop of shops" class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+
+      <div class="card h-100">
+        <h4 class="shop-title">
+          <span> {{shop.name}}</span>
+        </h4>
+        <a href="#"><img class="card-img-top" src={{shop.picture}} alt=""></a>
+        <div class="card-body">
+          <div class="options ">
+            <div class="btn-group"><a (click)="removeFromPreferedShops(shop)"><i class="btn btn-primary">
+              <span class="glyphicon glyphicon-remove"></span>Remove</i></a></div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+</div>
+
+
+
